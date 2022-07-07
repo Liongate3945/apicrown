@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
   else if (req.url == '/token') {
     console.log("EEE");
     if (req.body && req.body.token != null) {
-      if (req.body.token == process.env['token']) {
+      if (req.body.token == "LOL)K)L)((&?%") {
         res.write(JSON.stringify({ validation: "Valid" }));
         res.end();
       }
